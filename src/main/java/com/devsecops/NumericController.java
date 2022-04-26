@@ -18,7 +18,7 @@ import org.springframework.web.client.RestTemplate;
 public class NumericController {
 
 	private final Logger logger = LoggerFactory.getLogger(getClass());
-	private static final String baseURL = "http://192.168.33.10:5000/plusone";
+	private static final String baseURL = "http://ec2-15-206-37-128.ap-south-1.compute.amazonaws.com:5000/plusone";
 	
 	RestTemplate restTemplate = new RestTemplate();
 	
